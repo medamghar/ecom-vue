@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
   <div class="w-full flex gap-4">
-    <div class="relative flex-1 bg-black h-32">
+    <div class="relative flex-1 h-32">
       <div class="relative">
         <img
-          src="https://img.freepik.com/free-photo/young-woman-trendy-stylish-glasses-bright-orange-oversized-jacket-white-background-smokes-electronic-cigarette_343596-8182.jpg?w=1060&t=st=1698097180~exp=1698097780~hmac=787c4a316fa33903420dfc5907731c3d2e0aa18bb6610351e41c1b4902062382"
+          src="https://cdn.pixabay.com/photo/2018/12/03/03/20/uwell-3852649_1280.jpg"
           alt=""
         />
       </div>
@@ -15,7 +15,7 @@
         <span  class="text-[#c4c4c4] font-medium text-[12px]" >customized counter acrylic cosmetic <br/> display stand
             for 24 bottles perfumes</span>
         </div>
-        <button class="bg-[#189ffa] w-32 p-4 text-white font-medium">SHOP NOW</button>
+        <button class="bg-[#189ffa] w-32 p-4 text-white font-medium rounded">SHOP NOW</button>
       </div>
     </div>
     <div class="w-[40%] flex flex-col gap-3 max-h-[350px]">

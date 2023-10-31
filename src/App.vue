@@ -3,6 +3,7 @@ import Cataloge from './components/Cataloge.vue';
 import Header from './components/Header.vue'
 import Layout from './components/Layout.vue'
 import MainSection from './components/MainSection.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -11,10 +12,11 @@ import MainSection from './components/MainSection.vue';
         <Header/>
 <MainSection/>
 <Cataloge/>
+<Footer/>
     </div>
 
 </Layout>
- 
+
 </template>
 
 <style scoped>

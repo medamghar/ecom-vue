@@ -7,12 +7,23 @@
     src: url('./assets/lib/Sohne.otf') format('woff'); /* Replace with the actual path to your font files */
   
   }
+  @font-face {
+    font-family: 'Barlow';
+    src: url('./assets/lib/Barlow-Regular.ttf') format('ttf'); /* Replace with the actual path to your font files */
+  
+  }
 *{
     margin: 0;
     padding: 0;
 }
+
 h1{
     font-weight: 700;
+    font-family: 'Shone',sans-serif;
+    text-transform: lowercase;
+}
+h1::first-letter{
+    text-transform: capitalize;
 }
 body{
     background-color: #fff;
@@ -25,4 +36,12 @@ body{
 }
 .product{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+li::first-letter{
+    text-transform: capitalize;
+
+}
+li{
+    font-weight: 500;
+    font-family: 'Shone', sans-serif;
 }

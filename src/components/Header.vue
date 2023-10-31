@@ -14,7 +14,7 @@ import Logo from '../assets/logo.svg'
     <div>
       <h1>JmlaShop.ma</h1>
     </div>
-    <div class="border-slate-200 border w-[36rem]">
+    <div class="border-slate-200 border w-[36rem] ">
       <div class=" h-12 flex items-center ">
         <div class="grow px-2">
           <input placeholder="hi there" class="h-12 w-full text-12" />
